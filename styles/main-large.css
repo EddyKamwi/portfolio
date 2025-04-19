@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) {
+  .top-header {
+    display: flex;
+  }
+  .menu-bars {
+    display: none;
+  }
+  nav {
+    position: absolute;
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-self: center;
+    flex-direction: row;
+  }
+  nav a:first-child {
+    margin-left: auto;
+  }
+  nav{
+    height: auto;
+  }
+}
+@media screen and (min-width: 720px) {
+}
+@media screen and (min-width: 10800px) {
+}
