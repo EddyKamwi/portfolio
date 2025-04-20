@@ -2,6 +2,9 @@
   .top-header {
     display: flex;
   }
+  .hero-card{
+    width: 400px;
+  }
   .menu-bars {
     display: none;
   }
@@ -21,6 +24,12 @@
   }
 }
 @media screen and (min-width: 720px) {
+  .hero-card{
+    width: 500px;
+  }
 }
 @media screen and (min-width: 10800px) {
+  .hero-card{
+    width: 700px;
+  }
 }

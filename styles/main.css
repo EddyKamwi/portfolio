@@ -55,7 +55,7 @@ header {
   transition: all 0.2s ease;
   color: var(--as3);
 }
-.top-header a svg{
+.top-header a svg {
   height: 30px;
 }
 nav {
@@ -77,13 +77,15 @@ nav a {
   text-align: center;
   text-decoration: none;
   display: block;
-  padding: .2rem .6rem;
-  color:var(--as2)
+  padding: 0.2rem 0.6rem;
+  color: var(--as2);
 }
-.active,nav a:hover{
-  color:var(--sec)
+.active,
+nav a:hover {
+  color: var(--sec);
 }
-.top-header a:hover , nav a:hover{
+.top-header a:hover,
+nav a:hover {
   transform: translateY(2px);
 }
 .menu-bars {
@@ -97,14 +99,35 @@ nav a {
   border-radius: 2px;
   cursor: pointer;
 }
-main{
-  /* max-width: 1080px; */
+.hero-card .skills-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
-.hero{
+.hero-card .skills-icons svg {
+  height: 40px;
+  width: 40px;
+  fill: var(--as2);
+}
+.hero {
   overflow: hidden;
-  height: 85vh;;
+  height: 85vh;
+  position: relative;
 }
-.hero-image{
+.hero-card{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 320px;
+  height: 200px;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--b-pr-);
+  transition: all .5s ease;
+}
+.hero-image {
   object-fit: contain;
   object-position: right;
   width: 100%;
