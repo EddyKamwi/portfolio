@@ -12,3 +12,7 @@ document.querySelector(".menu-bars").addEventListener("click", (e) => {
       clicked = true;
   }
 });
+document.querySelector(".project-btn").addEventListener("click", () => {
+  document.querySelector("dialog").open()
+  HTMLDialogElement.open()
+})
